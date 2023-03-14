@@ -18,7 +18,8 @@ namespace PractiseProblems
                     "2:Check Odd Numbers in Given Range\n" +
                     "3:Check Given Number is positive Or Not\n" +
                     "4:Check Largest Among Two Numbers\n" +
-                    "5:Check Swap Numbers ");
+                    "5:Check Swap Numbers\n" +
+                    "6:Check The Number Which Devisible By Two");
                 int option = Convert.ToInt32(Console.ReadLine());
                 switch (option)
                 {
@@ -38,6 +39,9 @@ namespace PractiseProblems
                         SwapNumbersProgram.SwapNumbers();
                         break;
                     case 6:
+                        NumberDivisibleByTwo.NumberCheck();
+                        break;
+                    case 7:
                         flag = true;
                         break;
                 }
