@@ -16,7 +16,8 @@ namespace PractiseProblems
             {
                 Console.WriteLine("1:Check Odd Even Number Program\n" +
                     "2:Check Odd Numbers in Given Range\n" +
-                    "3:Check Given Number is positive Or Not");
+                    "3:Check Given Number is positive Or Not\n" +
+                    "4:Check Largest Among Two Numbers");
                 int option = Convert.ToInt32(Console.ReadLine());
                 switch (option)
                 {
@@ -28,6 +29,9 @@ namespace PractiseProblems
                         break;
                     case 3:
                         PositiveNumbers.PositiveOrNot();
+                        break;
+                    case 4:
+                        LargestOfTwo.LargestNumber();
                         break;
                     default:
                         Console.WriteLine("Choose a valid Options");
