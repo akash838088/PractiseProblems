@@ -45,6 +45,7 @@
   <ItemGroup>
     <Compile Include="OddNumbers.cs" />
     <Compile Include="OddOrEvenNumber.cs" />
+    <Compile Include="PositiveNumbers.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

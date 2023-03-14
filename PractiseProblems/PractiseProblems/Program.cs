@@ -15,7 +15,8 @@ namespace PractiseProblems
             while (!flag)
             {
                 Console.WriteLine("1:Check Odd Even Number Program\n" +
-                    "2:Check Odd Numbers In Given Range");
+                    "2:Check Odd Numbers in Given Range\n" +
+                    "3:Check Given Number is positive Or Not");
                 int option = Convert.ToInt32(Console.ReadLine());
                 switch (option)
                 {
@@ -24,6 +25,9 @@ namespace PractiseProblems
                         break;
                     case 2:
                         OddNumbers.ChekingOddNumbers();
+                        break;
+                    case 3:
+                        PositiveNumbers.PositiveOrNot();
                         break;
                     default:
                         Console.WriteLine("Choose a valid Options");
